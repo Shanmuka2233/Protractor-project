@@ -1,0 +1,166 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1740563754433' stop='1740563760148'>
+    <name>Customer login test</name>
+    <title>Customer login test</title>
+    <test-cases>
+        <test-case start='1740563754433' status='failed' stop='1740563756858'>
+            <name>login as customerpage</name>
+            <title>login as customerpage</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='4538975e-5e96-4ca2-a48a-6bfdc5494e39-attachment.png' type='image/png' size='6011'/>
+            </attachments>
+            <failure>
+                <message>Failed: No element found using locator: by.ngClick("customer()")</message>
+                <stack-trace>NoSuchElementError: No element found using locator: by.ngClick("customer()")
+                    at C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\built\element.js:814:27
+                    at ManagedPromise.invokeCallback_ (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+                    at TaskQueue.execute_ (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27
+                    at C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+                    at processTicksAndRejections (node:internal/process/task_queues:105:5)Error
+                    at ElementArrayFinder.applyAction_ (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+                    at ElementArrayFinder.&lt;computed> [as click] (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+                    at ElementFinder.&lt;computed> [as click] (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+                    at customerinfo.customerlogin (C:\Users\SHVYSYAR\OneDrive - Capgemini\Documents\Protractorpageobject\pages\customerinfo.js:12:94)
+                    at UserContext.&lt;anonymous> (C:\Users\SHVYSYAR\OneDrive - Capgemini\Documents\Protractorpageobject\test_spec\customerinfo_spec.js:11:22)
+                    at C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+                    at new ManagedPromise (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+                    at ControlFlow.promise (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+                    at schedulerExecute (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+                    at TaskQueue.execute_ (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                From: Task: Run it("login as customerpage") in control flow
+                    at UserContext.&lt;anonymous> (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+                    at attempt (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                    at Spec.queueRunnerFactory (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+                    at Spec.execute (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+                    at UserContext.fn (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+                    at attempt (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (C:\Users\SHVYSYAR\OneDrive - Capgemini\Documents\Protractorpageobject\test_spec\customerinfo_spec.js:7:5)
+                    at addSpecsToSuite (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (C:\Users\SHVYSYAR\OneDrive - Capgemini\Documents\Protractorpageobject\test_spec\customerinfo_spec.js:5:1)
+                    at Module._compile (node:internal/modules/cjs/loader:1739:14)
+                    at Object..js (node:internal/modules/cjs/loader:1904:10)
+                    at Module.load (node:internal/modules/cjs/loader:1473:32)
+                    at Function._load (node:internal/modules/cjs/loader:1285:12)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1740563756858' status='failed' stop='1740563759012'>
+            <name>go to withdrawl page</name>
+            <title>go to withdrawl page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='460e8af3-00ab-4e74-b343-95ad922fab3d-attachment.png' type='image/png' size='36562'/>
+            </attachments>
+            <failure>
+                <message>Failed: No element found using locator: by.ngClick("withdrawl()")</message>
+                <stack-trace>NoSuchElementError: No element found using locator: by.ngClick("withdrawl()")
+                    at C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\built\element.js:814:27
+                    at ManagedPromise.invokeCallback_ (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+                    at TaskQueue.execute_ (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27
+                    at C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+                    at processTicksAndRejections (node:internal/process/task_queues:105:5)Error
+                    at ElementArrayFinder.applyAction_ (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+                    at ElementArrayFinder.&lt;computed> [as click] (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+                    at ElementFinder.&lt;computed> [as click] (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+                    at customerinfo.gotowithdrawl (C:\Users\SHVYSYAR\OneDrive - Capgemini\Documents\Protractorpageobject\pages\customerinfo.js:44:108)
+                    at UserContext.&lt;anonymous> (C:\Users\SHVYSYAR\OneDrive - Capgemini\Documents\Protractorpageobject\test_spec\customerinfo_spec.js:27:18)
+                    at C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+                    at new ManagedPromise (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+                    at ControlFlow.promise (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+                    at schedulerExecute (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+                    at TaskQueue.execute_ (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                From: Task: Run it("go to withdrawl page") in control flow
+                    at UserContext.&lt;anonymous> (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+                    at attempt (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                    at Spec.queueRunnerFactory (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+                    at Spec.execute (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+                    at UserContext.fn (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+                    at attempt (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at runNext (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (C:\Users\SHVYSYAR\OneDrive - Capgemini\Documents\Protractorpageobject\test_spec\customerinfo_spec.js:25:3)
+                    at addSpecsToSuite (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (C:\Users\SHVYSYAR\OneDrive - Capgemini\Documents\Protractorpageobject\test_spec\customerinfo_spec.js:5:1)
+                    at Module._compile (node:internal/modules/cjs/loader:1739:14)
+                    at Object..js (node:internal/modules/cjs/loader:1904:10)
+                    at Module.load (node:internal/modules/cjs/loader:1473:32)
+                    at Function._load (node:internal/modules/cjs/loader:1285:12)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1740563759012' status='failed' stop='1740563760147'>
+            <name>goto customertransaction page</name>
+            <title>goto customertransaction page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='15f65abc-20ea-4c48-b8b2-f0416ffe229c-attachment.png' type='image/png' size='38387'/>
+            </attachments>
+            <failure>
+                <message>Failed: No element found using locator: by.ngClick("transactions()")</message>
+                <stack-trace>NoSuchElementError: No element found using locator: by.ngClick("transactions()")
+                    at C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\built\element.js:814:27
+                    at ManagedPromise.invokeCallback_ (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+                    at TaskQueue.execute_ (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27
+                    at C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+                    at processTicksAndRejections (node:internal/process/task_queues:105:5)Error
+                    at ElementArrayFinder.applyAction_ (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+                    at ElementArrayFinder.&lt;computed> [as click] (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+                    at ElementFinder.&lt;computed> [as click] (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+                    at customerinfo.gototransactions (C:\Users\SHVYSYAR\OneDrive - Capgemini\Documents\Protractorpageobject\pages\customerinfo.js:88:147)
+                    at UserContext.&lt;anonymous> (C:\Users\SHVYSYAR\OneDrive - Capgemini\Documents\Protractorpageobject\test_spec\customerinfo_spec.js:51:18)
+                    at C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+                    at new ManagedPromise (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+                    at ControlFlow.promise (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+                    at schedulerExecute (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+                    at TaskQueue.execute_ (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                From: Task: Run it("goto customertransaction page") in control flow
+                    at UserContext.&lt;anonymous> (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+                    at attempt (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                    at Spec.queueRunnerFactory (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+                    at Spec.execute (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+                    at UserContext.fn (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+                    at attempt (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at runNext (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (C:\Users\SHVYSYAR\OneDrive - Capgemini\Documents\Protractorpageobject\test_spec\customerinfo_spec.js:49:3)
+                    at addSpecsToSuite (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (C:\Users\SHVYSYAR\OneDrive - Capgemini\Documents\Protractorpageobject\test_spec\customerinfo_spec.js:5:1)
+                    at Module._compile (node:internal/modules/cjs/loader:1739:14)
+                    at Object..js (node:internal/modules/cjs/loader:1904:10)
+                    at Module.load (node:internal/modules/cjs/loader:1473:32)
+                    at Function._load (node:internal/modules/cjs/loader:1285:12)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
