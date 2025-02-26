@@ -1,0 +1,82 @@
+{
+ 
+ 
+ 
+    "locators":{
+   
+   
+        "sampleformpage":{
+   
+        "firstName":"//*[@id='firstName']",
+        "lastName":"//*[@id='lastName']",
+        "Email":"//*[@id='email']",
+        "password":"//*[@id='password']",
+        "Readingckbox":"//*[@value='Reading']",
+        "selecttext":"male",
+        "About":"//*[@name='about']",
+        "register":"//*[@type='submit']",
+        "successmasessage":"//*[@id='successMessage']",
+        
+        "testdata":{
+ 
+ 
+          "fName":"shanmuk",
+          "lName":"vysya",
+          "Email":"shannu9@gmail.com",
+          "Password":"Shannu@123",
+          "abouttext":"As mentioned earlier, for successful",
+          "expectedText":"User registered successfully!",
+
+        
+
+          "customerinfo":{
+   
+            "customerclick":"customer()",
+            "gotocustomer":".btn.btn-default",
+            "verifytitle":".fontBig.ng-binding",
+            "selectnumber":"number:1008",
+           "resulttmes0":"(//div[@class='center'] )[1]" ,
+           "resulttext0":"Account Number : 1008 , Balance : 0 , Currency : Pound",
+          
+            "customerwithdrawl":{
+
+              "withdrawl":"withdrawl()",
+              "enteramount":"//input[@type='number']",
+              "amount":"1000",
+              "clickwithdrawl":"//button[@type='submit']",
+              "resultmes1":"//span[@class='error ng-binding'] ",
+              "resulttext1":"Transaction Failed. You can not withdraw amount more than the balance.",
+
+              
+              "customerdeposit":{
+
+              "clickdiposit":"deposit()",
+              "enteramount0":"//input[@type='number'] ",
+              "amount0":"2000",
+              "clickwithdrawl0":"//button[@type='submit']",
+               "resultmes2":"//span[@class='error ng-binding'] ",
+              "resulttext2":"Deposit Successful",
+
+            "customertransaction":{
+                
+              "clicktransaction":"transactions()",
+              "verifymess":"//tr[@class='ng-scope']"
+         
+
+            }
+           
+          } 
+            
+   
+   
+   
+      }
+    }}}}}
+   
+   
+        
+   
+   
+   
+   
+    

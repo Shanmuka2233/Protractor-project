@@ -1,0 +1,28 @@
+
+ {
+
+    "locators":{
+
+        "Bankmanagerpage":{
+        "clickban":"manager()",
+        "clickaddcus":"addCust()",
+        "addfname":"//input[@placeholder='First Name']",
+        "addlname":"//input[@placeholder='Last Name']",
+        "Postcode":"//input[@placeholder='Post Code']",
+        "submit":"//button[@type='submit']",
+        "clickopen":"openAccount()",
+        "submitprocess":"//button[@type='submit']",
+        "clickcus":"showCust()",
+        "verifymee":"cust in Customers",
+
+
+        "testdata":{
+            "fname":"shannu",
+              "lname":"vysya",
+              "pcode":"122344"
+
+            
+    
+          }}  }
+
+        }
