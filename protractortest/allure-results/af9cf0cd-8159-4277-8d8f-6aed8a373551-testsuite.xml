@@ -1,0 +1,90 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1740480713129' stop='1740480731653'>
+    <name>BankManager login test</name>
+    <title>BankManager login test</title>
+    <test-cases>
+        <test-case start='1740480713131' status='passed' stop='1740480722070'>
+            <name>bankmanager login page</name>
+            <title>bankmanager login page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='507bb182-1420-4e62-b7ef-8deec24fc802-attachment.png' type='image/png' size='29965'/>
+            </attachments>
+        </test-case>
+        <test-case start='1740480722070' status='passed' stop='1740480729940'>
+            <name>Add custome page</name>
+            <title>Add custome page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='67fb87c4-7f17-4585-9fbe-5c000d2229b0-attachment.png' type='image/png' size='48066'/>
+            </attachments>
+        </test-case>
+        <test-case start='1740480729940' status='failed' stop='1740480730242'>
+            <name>Add openaccount page</name>
+            <title>Add openaccount page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='7b22b73b-f817-46de-8463-809fef5ce3c8-attachment.png' type='image/png' size='48390'/>
+            </attachments>
+            <failure>
+                <message>Failed: No element found using locator: By(css selector, *[id="userSelect"])</message>
+                <stack-trace>NoSuchElementError: No element found using locator: By(css selector, *[id="userSelect"])
+                    at C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\built\element.js:814:27
+                    at ManagedPromise.invokeCallback_ (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+                    at TaskQueue.execute_ (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27
+                    at C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+                    at processTicksAndRejections (node:internal/process/task_queues:105:5)Error
+                    at ElementArrayFinder.applyAction_ (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+                    at ElementArrayFinder.&lt;computed> [as click] (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+                    at SelectWrapper.selectByValue (C:\Users\SHVYSYAR\OneDrive - Capgemini\Documents\Protractorpageobject\util\select-wrapper.js:14:73)
+                    at BankManagerinfo.gotoopenaccount (C:\Users\SHVYSYAR\OneDrive - Capgemini\Documents\Protractorpageobject\pages\AddBankManagerDetails.js:45:14)
+                    at UserContext.&lt;anonymous> (C:\Users\SHVYSYAR\OneDrive - Capgemini\Documents\Protractorpageobject\test_spec\AddBankManagerDetails_spec.js:22:27)
+                    at C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+                    at new ManagedPromise (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+                    at ControlFlow.promise (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+                    at schedulerExecute (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+                    at TaskQueue.execute_ (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                From: Task: Run it("Add openaccount page") in control flow
+                    at UserContext.&lt;anonymous> (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+                    at attempt (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                    at Spec.queueRunnerFactory (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+                    at Spec.execute (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+                    at UserContext.fn (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+                    at attempt (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at runNext (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (C:\Users\SHVYSYAR\OneDrive - Capgemini\Documents\Protractorpageobject\test_spec\AddBankManagerDetails_spec.js:20:2)
+                    at addSpecsToSuite (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (C:\Users\SHVYSYAR\OneDrive - Capgemini\Documents\Protractorpageobject\test_spec\AddBankManagerDetails_spec.js:5:1)
+                    at Module._compile (node:internal/modules/cjs/loader:1739:14)
+                    at Object..js (node:internal/modules/cjs/loader:1904:10)
+                    at Module.load (node:internal/modules/cjs/loader:1473:32)
+                    at Function._load (node:internal/modules/cjs/loader:1285:12)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1740480730242' status='passed' stop='1740480731652'>
+            <name>Add customer page</name>
+            <title>Add customer page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='df49d52c-51bf-4c58-a96c-e835065af818-attachment.png' type='image/png' size='86880'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

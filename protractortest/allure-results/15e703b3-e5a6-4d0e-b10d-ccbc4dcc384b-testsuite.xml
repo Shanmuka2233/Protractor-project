@@ -1,0 +1,17 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1740481113105' stop='1740481124692'>
+    <name>lifetimememebership login page</name>
+    <title>lifetimememebership login page</title>
+    <test-cases>
+        <test-case start='1740481113105' status='passed' stop='1740481124691'>
+            <name>lifetimemembership login test page</name>
+            <title>lifetimemembership login test page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='724de912-0b53-4daf-9da7-92fb2594446f-attachment.png' type='image/png' size='537652'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

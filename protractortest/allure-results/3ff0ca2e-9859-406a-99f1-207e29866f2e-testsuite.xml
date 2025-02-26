@@ -1,0 +1,37 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1740563781682' stop='1740563814808'>
+    <name>Customer login test</name>
+    <title>Customer login test</title>
+    <test-cases>
+        <test-case start='1740563781682' status='passed' stop='1740563798612'>
+            <name>login as customerpage</name>
+            <title>login as customerpage</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='26c8f916-6607-4c92-8b38-194cb244b525-attachment.png' type='image/png' size='45436'/>
+            </attachments>
+        </test-case>
+        <test-case start='1740563798612' status='passed' stop='1740563810477'>
+            <name>go to withdrawl page</name>
+            <title>go to withdrawl page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='cc16319f-7763-4ee1-9a70-dbc169d664b6-attachment.png' type='image/png' size='58627'/>
+            </attachments>
+        </test-case>
+        <test-case start='1740563810477' status='passed' stop='1740563814808'>
+            <name>goto customertransaction page</name>
+            <title>goto customertransaction page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='5a7673c3-beac-4f11-832d-8e840a27b27b-attachment.png' type='image/png' size='41126'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
