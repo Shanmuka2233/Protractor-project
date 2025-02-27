@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1740632905397' stop='1740632928330'>
+    <name>BankManager login test</name>
+    <title>BankManager login test</title>
+    <test-cases>
+        <test-case start='1740632905399' status='passed' stop='1740632911753'>
+            <name>bankmanager login page</name>
+            <title>bankmanager login page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='80fb4396-01a7-4f68-9b2b-8d19201c3e1c-attachment.png' type='image/png' size='42517'/>
+            </attachments>
+        </test-case>
+        <test-case start='1740632911754' status='passed' stop='1740632919872'>
+            <name>Add custome page</name>
+            <title>Add custome page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='dc8073f0-3381-4993-a25d-a8311f02aa33-attachment.png' type='image/png' size='60068'/>
+            </attachments>
+        </test-case>
+        <test-case start='1740632919873' status='passed' stop='1740632926863'>
+            <name>Add openaccount page</name>
+            <title>Add openaccount page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='bf0c0a43-f1cb-4f3a-8a72-017f3d209254-attachment.png' type='image/png' size='55789'/>
+            </attachments>
+        </test-case>
+        <test-case start='1740632926863' status='passed' stop='1740632928328'>
+            <name>Add customer page</name>
+            <title>Add customer page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='910dbb27-182a-495e-85fd-ed5a1454f7fa-attachment.png' type='image/png' size='100296'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

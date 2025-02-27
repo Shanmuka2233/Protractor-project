@@ -1,13 +1,16 @@
 {
   "dependencies": {
-    "jasmine-allure-reporter": "^1.0.2"
-    
+    "jasmine-allure-reporter": "^1.0.2",
+    "jasmine-reporters": "^2.5.2",
+    "jasmine2-protractor-utils": "^1.3.0",
+    "protractor-html-reporter-2": "^1.0.4"
   },
-  
-  
   "scripts": {
     "test": "protractor .\\conf\\conf.js",
     "posttest": "allure generate allure-results --clean -o allure-report || true",
     "allure": ".\\node_modules\\.bin\\allure generate ./allure-results -c && allure open"
+  },
+  "devDependencies": {
+    "protractor-beautiful-reporter": "^1.3.6"
   }
 }

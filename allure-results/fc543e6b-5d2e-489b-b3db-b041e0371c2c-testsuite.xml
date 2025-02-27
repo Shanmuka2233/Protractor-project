@@ -1,0 +1,214 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1740633138812' stop='1740633169962'>
+    <name>BankManager login test</name>
+    <title>BankManager login test</title>
+    <test-cases>
+        <test-case start='1740633138814' status='failed' stop='1740633169537'>
+            <name>bankmanager login page</name>
+            <title>bankmanager login page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.</message>
+                <stack-trace>Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.
+                    at Timeout._onTimeout (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4281:23)
+                    at listOnTimeout (node:internal/timers:614:17)
+                    at processTimers (node:internal/timers:549:7)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1740633169539' status='failed' stop='1740633169800'>
+            <name>Add custome page</name>
+            <title>Add custome page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Failed: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=133.0.6943.127)
+                  (Driver info: chromedriver=133.0.6943.53 (9a80935019b0925b01cc21d254da203bc3986f04-refs/branch-heads/6943@{#1389}),platform=Windows NT 10.0.22631 x86_64)</message>
+                <stack-trace>NoSuchWindowError: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=133.0.6943.127)
+                  (Driver info: chromedriver=133.0.6943.53 (9a80935019b0925b01cc21d254da203bc3986f04-refs/branch-heads/6943@{#1389}),platform=Windows NT 10.0.22631 x86_64)
+                    at Object.checkLegacyResponse (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:546:15)
+                    at parseHttpResponse (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:509:13)
+                    at C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30
+                    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+                From: Task: Protractor.waitForAngular() - Locator: by.ngClick("addCust()")
+                    at Driver.schedule (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+                    at ProtractorBrowser.executeAsyncScript_ (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\built\browser.js:423:28)
+                    at C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\built\browser.js:454:33
+                    at ManagedPromise.invokeCallback_ (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+                    at TaskQueue.execute_ (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27
+                    at C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+                    at processTicksAndRejections (node:internal/process/task_queues:105:5)Error
+                    at ElementArrayFinder.applyAction_ (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+                    at ElementArrayFinder.&lt;computed> [as click] (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+                    at ElementFinder.&lt;computed> [as click] (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+                    at BankManagerinfo.gotoaddcustomer (C:\Users\SHVYSYAR\OneDrive - Capgemini\Documents\Protractorpageobject\pages\AddBankManagerDetails.js:18:71)
+                    at UserContext.&lt;anonymous> (C:\Users\SHVYSYAR\OneDrive - Capgemini\Documents\Protractorpageobject\test_spec\AddBankManagerDetails_spec.js:15:32)
+                    at C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+                    at new ManagedPromise (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+                    at ControlFlow.promise (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+                    at schedulerExecute (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+                    at TaskQueue.execute_ (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                From: Task: Run it("Add custome page") in control flow
+                    at UserContext.&lt;anonymous> (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+                    at attempt (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at runNext (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+                    at C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+                    at C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+                    at C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:64:48
+                    at ControlFlow.emit (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\events.js:62:21)
+                    at ControlFlow.shutdown_ (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+                    at C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2599:53
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (C:\Users\SHVYSYAR\OneDrive - Capgemini\Documents\Protractorpageobject\test_spec\AddBankManagerDetails_spec.js:14:5)
+                    at addSpecsToSuite (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (C:\Users\SHVYSYAR\OneDrive - Capgemini\Documents\Protractorpageobject\test_spec\AddBankManagerDetails_spec.js:5:1)
+                    at Module._compile (node:internal/modules/cjs/loader:1739:14)
+                    at Object..js (node:internal/modules/cjs/loader:1904:10)
+                    at Module.load (node:internal/modules/cjs/loader:1473:32)
+                    at Function._load (node:internal/modules/cjs/loader:1285:12)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1740633169801' status='failed' stop='1740633169880'>
+            <name>Add openaccount page</name>
+            <title>Add openaccount page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Failed: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=133.0.6943.127)
+                  (Driver info: chromedriver=133.0.6943.53 (9a80935019b0925b01cc21d254da203bc3986f04-refs/branch-heads/6943@{#1389}),platform=Windows NT 10.0.22631 x86_64)</message>
+                <stack-trace>NoSuchWindowError: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=133.0.6943.127)
+                  (Driver info: chromedriver=133.0.6943.53 (9a80935019b0925b01cc21d254da203bc3986f04-refs/branch-heads/6943@{#1389}),platform=Windows NT 10.0.22631 x86_64)
+                    at Object.checkLegacyResponse (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:546:15)
+                    at parseHttpResponse (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:509:13)
+                    at C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30
+                    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+                From: Task: Protractor.waitForAngular() - Locator: by.ngClick("openAccount()")
+                    at Driver.schedule (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+                    at ProtractorBrowser.executeAsyncScript_ (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\built\browser.js:423:28)
+                    at C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\built\browser.js:454:33
+                    at ManagedPromise.invokeCallback_ (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+                    at TaskQueue.execute_ (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27
+                    at C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+                    at processTicksAndRejections (node:internal/process/task_queues:105:5)Error
+                    at ElementArrayFinder.applyAction_ (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+                    at ElementArrayFinder.&lt;computed> [as click] (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+                    at ElementFinder.&lt;computed> [as click] (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+                    at BankManagerinfo.gotoopenaccount (C:\Users\SHVYSYAR\OneDrive - Capgemini\Documents\Protractorpageobject\pages\AddBankManagerDetails.js:44:62)
+                    at UserContext.&lt;anonymous> (C:\Users\SHVYSYAR\OneDrive - Capgemini\Documents\Protractorpageobject\test_spec\AddBankManagerDetails_spec.js:22:27)
+                    at C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+                    at new ManagedPromise (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+                    at ControlFlow.promise (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+                    at schedulerExecute (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+                    at TaskQueue.execute_ (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                From: Task: Run it("Add openaccount page") in control flow
+                    at UserContext.&lt;anonymous> (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+                    at attempt (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at runNext (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+                    at C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+                    at C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+                    at C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:64:48
+                    at ControlFlow.emit (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\events.js:62:21)
+                    at ControlFlow.shutdown_ (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+                    at C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2599:53
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (C:\Users\SHVYSYAR\OneDrive - Capgemini\Documents\Protractorpageobject\test_spec\AddBankManagerDetails_spec.js:20:2)
+                    at addSpecsToSuite (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (C:\Users\SHVYSYAR\OneDrive - Capgemini\Documents\Protractorpageobject\test_spec\AddBankManagerDetails_spec.js:5:1)
+                    at Module._compile (node:internal/modules/cjs/loader:1739:14)
+                    at Object..js (node:internal/modules/cjs/loader:1904:10)
+                    at Module.load (node:internal/modules/cjs/loader:1473:32)
+                    at Function._load (node:internal/modules/cjs/loader:1285:12)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1740633169880' status='failed' stop='1740633169958'>
+            <name>Add customer page</name>
+            <title>Add customer page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Failed: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=133.0.6943.127)
+                  (Driver info: chromedriver=133.0.6943.53 (9a80935019b0925b01cc21d254da203bc3986f04-refs/branch-heads/6943@{#1389}),platform=Windows NT 10.0.22631 x86_64)</message>
+                <stack-trace>NoSuchWindowError: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=133.0.6943.127)
+                  (Driver info: chromedriver=133.0.6943.53 (9a80935019b0925b01cc21d254da203bc3986f04-refs/branch-heads/6943@{#1389}),platform=Windows NT 10.0.22631 x86_64)
+                    at Object.checkLegacyResponse (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:546:15)
+                    at parseHttpResponse (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:509:13)
+                    at C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30
+                    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+                From: Task: Protractor.waitForAngular() - Locator: by.ngClick("showCust()")
+                    at Driver.schedule (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+                    at ProtractorBrowser.executeAsyncScript_ (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\built\browser.js:423:28)
+                    at C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\built\browser.js:454:33
+                    at ManagedPromise.invokeCallback_ (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+                    at TaskQueue.execute_ (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27
+                    at C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+                    at processTicksAndRejections (node:internal/process/task_queues:105:5)Error
+                    at ElementArrayFinder.applyAction_ (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+                    at ElementArrayFinder.&lt;computed> [as click] (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+                    at ElementFinder.&lt;computed> [as click] (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+                    at BankManagerinfo.gotocustomer (C:\Users\SHVYSYAR\OneDrive - Capgemini\Documents\Protractorpageobject\pages\AddBankManagerDetails.js:62:64)
+                    at UserContext.&lt;anonymous> (C:\Users\SHVYSYAR\OneDrive - Capgemini\Documents\Protractorpageobject\test_spec\AddBankManagerDetails_spec.js:26:27)
+                    at C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+                    at new ManagedPromise (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+                    at ControlFlow.promise (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+                    at schedulerExecute (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+                    at TaskQueue.execute_ (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                From: Task: Run it("Add customer page") in control flow
+                    at UserContext.&lt;anonymous> (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+                    at attempt (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at runNext (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+                    at C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+                    at C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+                    at C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:64:48
+                    at ControlFlow.emit (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\events.js:62:21)
+                    at ControlFlow.shutdown_ (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+                    at C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2599:53
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (C:\Users\SHVYSYAR\OneDrive - Capgemini\Documents\Protractorpageobject\test_spec\AddBankManagerDetails_spec.js:24:1)
+                    at addSpecsToSuite (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\SHVYSYAR\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (C:\Users\SHVYSYAR\OneDrive - Capgemini\Documents\Protractorpageobject\test_spec\AddBankManagerDetails_spec.js:5:1)
+                    at Module._compile (node:internal/modules/cjs/loader:1739:14)
+                    at Object..js (node:internal/modules/cjs/loader:1904:10)
+                    at Module.load (node:internal/modules/cjs/loader:1473:32)
+                    at Function._load (node:internal/modules/cjs/loader:1285:12)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
